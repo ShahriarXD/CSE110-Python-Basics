@@ -1,3 +1,13 @@
+def a(dd):
+    print ("hello ", dd) 
+
+a("Mahir") 
+a("Rohim") 
+
+
+
+
+
 def a(a,b):
     sum = a+b
     print (sum)
