@@ -27,3 +27,10 @@ def b(*trmairechudi):
 
 b(5,6)    
 b(5,6,11,55)
+
+
+def a(*dd):
+    print (f"Hello {dd[0]} and {dd[1]}") 
+
+a("Mahir" , "NAFISA") 
+a("Rohim" , "SAMIA") 
