@@ -21,6 +21,23 @@ print (a)
 
 
 
+#If one tuple contains more items, these items are ignored:
+#use the tuple() function to display a readable version of the result:
+a = ("John", "Charles", "Mike" , "MAHIR" , "LOL")
+b = ("Jenny", "Christy", "Monica", "Vicky")
+
+x = tuple(zip(a, b))
+
+print (x)
+#===============OUTPUT=================
+#(('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'), ('MAHIR', 'Vicky'))
+
+
+
+
+
+
+
 # we can only add one letter of the string items to the list
 roll = [100 ,55 ,66 ,88 ,105]
 names = ["KS MAHIR" , "Mridul" , "MRINMOY" , "NAFISA" , "YANNA"]
