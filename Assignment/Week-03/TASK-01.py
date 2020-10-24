@@ -46,7 +46,52 @@
 
 
 
-count = -10
-while count <= 20:
-    print(count , end =", ")
-    count += 5
+# b)-10, -5, 0, 5, 10, 15, 20
+#This code is licensed to Brac University
+#Email: km.shahriar.hossain@g.bracu.ac.bd
+#Author: KM SHAHRIAR HOSSAIN
+#Student Id :20201090
+
+Valorant = -10
+while Valorant <= 20:
+    if Valorant == 20:
+        print (Valorant , end="")
+    else:    
+        print(Valorant , end =", ")
+    Valorant += 5
+# c)18, 27, 36, 45, 54, 63
+#This code is licensed to Brac University
+#Email: km.shahriar.hossain@g.bracu.ac.bd
+#Author: KM SHAHRIAR HOSSAIN
+#Student Id :20201090
+
+Valorant = 18
+while Valorant <= 63:
+    if Valorant == 63:
+        print (Valorant , end="")
+    else:    
+        print(Valorant , end =", ")
+    Valorant += 9
+
+# d)18,-27, 36,-45,54,-63
+#This code is licensed to Brac University
+#Email: km.shahriar.hossain@g.bracu.ac.bd
+#Author: KM SHAHRIAR HOSSAIN
+#Student Id :202010
+
+
+Valorant = 18
+while Valorant <= 63:
+    if Valorant == 18:
+    	print (Valorant , end=",-")
+    elif Valorant == 27:
+        print (Valorant , end=", ")
+    elif Valorant == 36:
+        print (Valorant , end=",-")   
+    elif Valorant == 45:
+        print (Valorant , end=",")
+    elif Valorant == 54:
+        print (Valorant , end=",-")  
+    elif Valorant == 63:
+        print (Valorant , end="")
+    Valorant += 9
