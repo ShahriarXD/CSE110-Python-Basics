@@ -1,0 +1,10 @@
+txt = "Hello World"[::-1]
+print(txt)
+
+
+or 
+
+n = input()[::-1]
+print (n)
+
+
