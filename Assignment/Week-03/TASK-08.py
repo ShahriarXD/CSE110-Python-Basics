@@ -72,15 +72,27 @@ Write a Python code of a program that asks the user to enter ten numbers then di
 #Author: KM SHAHRIAR HOSSAIN
 #Student Id :20201090
 
-list = []
-for x in range (1 ,11):
-    a = int(input())
-    list.append(a)
-
 sum = 0
-for y in list:
-    if y %2 != 0:
-        sum = sum + y
+count=0
+for x  in range(10):
+    a = int(input())
+    if a % 2 != 0:
+        sum = sum + a
+        count +=1
+avg = sum /count       
+print(f"Total is {sum} and Average is {avg}")
 
-avg = sum /5       
-print(f"Total is {sum} and Average is {avg}")  
+
+
+# list = []
+# for x in range (1 ,11):
+#     a = int(input())
+#     list.append(a)
+
+# sum = 0
+# for y in list:
+#     if y %2 != 0:
+#         sum = sum + y
+
+# avg = sum /5       
+# print(f"Total is {sum} and Average is {avg}")       
