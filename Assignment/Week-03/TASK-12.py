@@ -11,6 +11,6 @@
 n = input()
 a = len(n)
 for x in range(0 , a-1):
-    print(n[x], end=", ")
+    print(n[x], end=", ")  # here n[x] means input er 1st alphabet e ke ase
 else:
     print(n[x+1]) 
