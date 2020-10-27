@@ -1,3 +1,5 @@
+#https://www.kite.com/python/answers/how-to-join-a-list-of-integers-into-a-string-in-python
+
 ints = [1,2,3]
 string_ints = [str(int) for int in ints]
 #Convert each integer to a string
