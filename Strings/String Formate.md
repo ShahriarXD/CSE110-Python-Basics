@@ -141,6 +141,61 @@ print(x)
 ```bash
 I like apple5445
 ```
+## 13. bin = method to find binary.
+```python
+number = 13
+binary = bin(number)[2:]
+print(binary)
+```
+```bash
+1101
+```
+## 14. zfill() = method adds zeros (0) at the beginning of the string, until it reaches the specified length.
+```python
+txt = "SEXY"
+x = txt.zfill(10)
+print(x)
+```
+```bash
+000000SEXY
+```
+## 15. rfind()/rfind() =method finds the last occurrence of the specified value.
+```python
+txt = "Mi casa, su casa."
+x = txt.rfind("casa")
+print(x)
+
+txt = "Mi casa, su casa."
+x = txt.rindex("casa")
+print(x)
+```
+```bash
+12
+12
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
