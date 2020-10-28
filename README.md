@@ -7,3 +7,4 @@ So, Here I will be Uploading all of my files and backup codes for cse 110 biacth
 3. [makeareadme](https://www.makeareadme.com/)
 4. [AnisVai](https://www.youtube.com/playlist?list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN)
 5. [HarryVai](https://youtu.be/gfDE2a7MKjA)
+6. [Python Reference](https://www.w3schools.com/python/python_reference.asp)
