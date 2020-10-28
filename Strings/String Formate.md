@@ -159,7 +159,7 @@ print(x)
 ```bash
 000000SEXY
 ```
-## 15. rfind()/rfind() =method finds the last occurrence of the specified value.
+## 15. rfind()/rfind() = method finds the last occurrence of the specified value.
 ```python
 txt = "Mi casa, su casa."
 x = txt.rfind("casa")
@@ -173,31 +173,32 @@ print(x)
 12
 12
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 16. split() = method splits a string into a list.
+```python
+s = "dasdsa sdadasdasd asdasdasd"
+print(s.split())
+s = "dasdsa,sdadasdasd,asdasdasd"
+print(s.split("#"))
+```
+```bash
+['dasdsa', 'sdadasdasd', 'asdasdasd']
+['dasdsa', 'sdadasdasd', 'asdasdasd']
+```
+## 17. swapcase() = method returns a string where all the upper case letters are lower case and vice versa.
+```python
+txt = "Hello My Name Is PETER"
+x = txt.swapcase()
+print(x)
+```
+```bash
+hELLO mY nAME iS peter
+```
+## 18. title() = method returns a string where the first character in every word is upper case. Like a header, or a title.
+```python
+txt = "Welcome to my world"
+x = txt.title()
+print(x)
+```
+```bash
+Welcome To My World
+```
