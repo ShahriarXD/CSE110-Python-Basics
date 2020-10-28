@@ -51,7 +51,7 @@ else:
 Sexy
 110
 ```
-## 6. endswith() method returns True if the string ends with the specified value, otherwise False.
+## 6. endswith() = method returns True if the string ends with the specified value.
 ```python
 txt = "Hello, welcome to my world."
 x = txt.endswith(".")
@@ -60,10 +60,28 @@ print(x)
 ```bash
 True
 ```
+## 7. find() = method finds the first occurrence of the specified value.
+```python
+txt = "Hello, welcome to my world."
+x = txt.find("welcome")
+print(x)
+```
+```bash
+#The find() method returns -1 if the value is not found.
+#The find() method is almost the same as the index() method, the only difference is that the index() method raises an exception if the value is not found.
+7
+```
+## 8. index() = method finds the first occurrence of the specified value.
+```python
+txt = "Hello, welcome to my world."
 
+x = txt.index("welcome")
 
-
-
+print(x)
+```
+```bash
+7
+```
 
 
 
