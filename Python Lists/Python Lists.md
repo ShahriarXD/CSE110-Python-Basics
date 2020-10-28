@@ -65,7 +65,26 @@ thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 ```
-['apple', 'blackcurrant', 'cherry']
 ```bash
+['apple', 'blackcurrant', 'cherry']
+```
+## Check if Item Exists:
+```python
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+```
+```bash
+Yes, 'apple' is in the fruits list
+```
+## List Length:
+```python
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+```
+```bash
+3
+```
+
 
 
