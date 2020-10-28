@@ -82,10 +82,20 @@ print(x)
 ```bash
 7
 ```
+## 9. join() = method takes all items in an iterable and joins them into one string.
+```python
+myTuple = ("John", "Peter", "Vicky")
+x = "#".join(myTuple)
+print(x)
 
-
-
-
+txt = "banana"
+x = "#".join(txt)
+print(x)
+```
+```bash
+John#Peter#Vicky
+b#a#n#a#n#a
+```
 
 
 
