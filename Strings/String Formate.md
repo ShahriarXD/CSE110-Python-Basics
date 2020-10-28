@@ -96,21 +96,39 @@ print(x)
 John#Peter#Vicky
 b#a#n#a#n#a
 ```
+## 9. partition() = method searches for a specified string, and splits the string into a tuple.
+```bash
+Search for the word "bananas", and return a tuple with three elements:
+
+1 - everything before the "match"
+2 - the "match"
+3 - everything after the "match"
+```
+```python
+txt = "I could eat bananas all day"
+x = txt.partition("bananas")
+print(x)
+
+txt = "I could eat bananas all day
+x = txt.partition("apples")
+print(x)
+```
+```bash
+('I could eat ', 'bananas', ' all day')
+('I could eat bananas all day', '', '')
+```
+## 10. upper()/lower() = method returns a string where all characters are in upper/lower case.
+```python
+txt = "Hello my friends"
+x = txt.upper()
+print(x)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+txt = "Hello my friends"
+x = txt.lower()
+print(x)
+```
+```bash
+HELLO MY FRIENDS
+hello my friends
+```
