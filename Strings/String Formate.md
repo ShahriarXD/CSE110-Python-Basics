@@ -96,7 +96,7 @@ print(x)
 John#Peter#Vicky
 b#a#n#a#n#a
 ```
-## 9. partition() = method searches for a specified string, and splits the string into a tuple.
+## 10. partition() = method searches for a specified string, and splits the string into a tuple.
 ```bash
 Search for the word "bananas", and return a tuple with three elements:
 
@@ -117,7 +117,7 @@ print(x)
 ('I could eat ', 'bananas', ' all day')
 ('I could eat bananas all day', '', '')
 ```
-## 10. upper()/lower() = method returns a string where all characters are in upper/lower case.
+## 11. upper()/lower() = method returns a string where all characters are in upper/lower case.
 ```python
 txt = "Hello my friends"
 x = txt.upper()
@@ -132,3 +132,17 @@ print(x)
 HELLO MY FRIENDS
 hello my friends
 ```
+## 12. replace() = method replaces a specified phrase with another specified phrase.
+```python
+txt = "I like bananas5445"
+x = txt.replace("bananas", "apple")
+print(x)
+```
+```bash
+I like apple5445
+```
+
+
+
+
+
