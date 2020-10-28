@@ -16,7 +16,7 @@ print (x)
 ```bash
 Hello, and welcome to my world.
 ```
-## 3.casefold()	= Converts string into lower case
+## 3. casefold()	= Converts string into lower case.
 ```python
 txt = "Hello, And Welcome To My World!"
 x = txt.casefold()
@@ -25,3 +25,64 @@ print(x)
 ```bash
 hello, and welcome to my world!
 ```
+## 4. count()	= Returns the number of times a specified value occurs in a string.
+```python
+txt = "I love apples, applesss apples3333 are my favorite fruit"
+x = txt.count("apples")
+print(x)
+```
+```bash
+3
+```
+## 5. startswith() method returns True if the string starts with the specified value.
+```python
+txt = "Hello, welcome to my world."
+if txt.startswith("welcome"):
+	print(55+55)
+else:
+	print("Sexy")
+txt = "Hello, welcome to my world."
+if txt.startswith("Hello"):
+	print(55+55)
+else:
+	print("Sexy")
+```
+```bash
+Sexy
+110
+```
+## 6. endswith() method returns True if the string ends with the specified value, otherwise False.
+```python
+txt = "Hello, welcome to my world."
+x = txt.endswith(".")
+print(x)
+```
+```bash
+True
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
