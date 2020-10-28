@@ -20,3 +20,26 @@ print(x)
 ```bash
 ['apple', 'banana', 'cherry']
 ```
+## List clear() Method = removes all the elements from a list.
+```python
+fruits = ["apple", "banana", "cherry"]
+fruits.clear()
+print(fruits)
+```
+```bash
+[]
+```
+## List count() Method = returns the number of elements with the specified value.
+```python
+fruits = ["apple", "banana", "cherry"]
+x = fruits.count("cherry")
+print(x)
+
+points = [1, 4, 2, 9, 7, 8, 9, 3, 1]
+x = points.count(9)
+print(x)
+```
+```bash
+1
+2
+```
