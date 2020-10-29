@@ -38,3 +38,21 @@ print(greeting("jap"), "Mahir")
 #Holla NAFISA
 #Hello Yanna    
 #Watashi Mahir  
+
+
+
+def summation(a,b):
+    x = a+b
+    return x
+print(summation(55,55))
+print(summation(55,66))
+print(summation(54,66))  
+#Output
+#110
+#121
+#120
+
+
+
+
+
