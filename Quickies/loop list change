@@ -1,0 +1,15 @@
+"""
+List Comprehensions
+aka changing the value of list using loop
+
+So how does this works??
+
+[expression for x in list]
+
+And most important thing here we need to use a braacket
+"""
+
+
+sex= [1,5,6,5,2,5,26,6]
+a = [x+5 for x in sex]
+print(a)
