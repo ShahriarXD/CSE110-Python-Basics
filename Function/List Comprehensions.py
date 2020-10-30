@@ -27,3 +27,20 @@ print(RESULT1)
 # [60, 70, 90, 5560]
 # [65, 85, 5555]    
 # []
+
+
+
+
+
+
+sex= [1,5,6,5,2,5,26,6]
+a = [x for x in sex]
+print (a)
+
+sex1= [1,5,6,5,2,5,26,6]
+b = [x+5 for x in sex1]
+print(b)
+
+sex2= [1,5,6,5,2,5,26,6]
+c = [x for x in sex2 if x>5]
+print(c)
