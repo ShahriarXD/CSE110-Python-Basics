@@ -19,3 +19,8 @@ print(a)
 sexy = [1,200,3]
 a = [x for x in sexy if x/x ==1]
 print (a)
+
+
+sexy = [1,200,3]
+a = [x for x in sexy if x%2 == 0]
+print (a)
