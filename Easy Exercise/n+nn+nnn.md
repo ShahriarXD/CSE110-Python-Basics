@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://media.discordapp.net/attachments/770868718132658206/771765129044951071/python-basic-image-exercise-10.png">
 </p>
+
 ```python
 n =  int(input())
 n1 = int( "%i%i" % (n,n) )
