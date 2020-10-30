@@ -8,7 +8,7 @@ Sexy = (lambda maal: maal*maal + 55) (5)
 print (Sexy)
 
 
-
+#map and #filter function workd with list. where xxxargs works with dict.
 #MAP FUNCTION
 def sq(x):
     a = x*x
