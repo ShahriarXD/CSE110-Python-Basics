@@ -9,18 +9,14 @@ So how does this works??
 And most important thing here we need to use a braacket
 """
 
-
 sex= [1,5,6,5,2,5,26,6]
-a = [x+5 for x in sex]
-print(a)
-
-
-#################IMPORTANT###################
-sexy = [1,200,3]
-a = [x for x in sexy if x/x ==1]
+a = [x for x in sex]
 print (a)
 
+sex1= [1,5,6,5,2,5,26,6]
+b = [x+5 for x in sex1]
+print(b)
 
-sexy = [1,200,3]
-a = [x for x in sexy if x%2 == 0]
-print (a)
+sex2= [1,5,6,5,2,5,26,6]
+c = [x for x in sex2 if x>5]
+print(c)
