@@ -1,6 +1,6 @@
 #LAMBDA FUNCTION
 # HOW TO WRITE:
-#LAMBDA PARAMETER : EXPRESSION
+#LAMBDA PARAMETER : EXPRESSION , (value)
 #(lambda x,n : x** + 2*xn + n** (value) )
 NOOB = (lambda x,n : x*x + 2*x*n + n*n) (2,3)
 print (NOOB)
