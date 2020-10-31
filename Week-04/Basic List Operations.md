@@ -54,7 +54,6 @@ Rafin,Messi,Bill Gates,MAHIR,YANNA,
 Tru
 ```
 
-```
 <p align="center">
   <img src="https://media.discordapp.net/attachments/770868718132658206/772071715378561054/unknown.png" title="hover text">
 </p>
