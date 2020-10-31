@@ -51,7 +51,7 @@ print (a)
 ['Rafin', 'Messi', 'Bill Gates', 'MAHIR', 'YANNA']
 ['Rafin', 'Bill Gates']
 Rafin,Messi,Bill Gates,MAHIR,YANNA,
-Tru
+True
 ```
 
 <p align="center">
