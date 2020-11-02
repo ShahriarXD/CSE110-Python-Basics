@@ -202,3 +202,14 @@ print(x)
 ```bash
 Welcome To My World
 ```
+## 19. sorted() function returns a sorted list of the specified iterable object.
+```python
+a = "study"
+b = "dusty"
+print(sorted(a))
+print(sorted(b))
+```
+```bash
+['d', 's', 't', 'u', 'y']
+['d', 's', 't', 'u', 'y']
+```
