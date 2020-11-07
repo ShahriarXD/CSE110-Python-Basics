@@ -151,3 +151,31 @@ print(len(thisdict))
 ```bash
 3
 ```
+## Adding Items : 
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+print(thisdict)
+```
+```bash
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
+```
+## Removing Items :
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "sex":69
+}
+thisdict.popitem()     #popitem() method removes the last inserted item
+thisdict.pop("model")  
+print(thisdict)
+```
+```bash
+{'brand': 'Ford', 'year': 1964}
+```
