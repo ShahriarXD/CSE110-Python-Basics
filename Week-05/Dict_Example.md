@@ -301,10 +301,10 @@ car1 = {
 x = car1.setdefault("color", "white")
 
 print(x)
+```
 ```bash
 Mustang
 white
 ```
 ## Learn More :
 [Click Here <====](https://www.w3schools.com/python/python_dictionaries.asp)
-
