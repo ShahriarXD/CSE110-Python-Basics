@@ -52,7 +52,35 @@ print(thisdict)
 ```bash
 {'brand': 'Ford', 'model': 'Mustang', 'year': 2018}
 ```
+## Loop Through a Dictionary:
+```python
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(x)
+  
+  
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])  
+```
+```bash
+brand
+model
+year
 
+==============
+Ford
+Mustang
+1964
+```
 
 
 
