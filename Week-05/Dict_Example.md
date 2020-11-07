@@ -242,7 +242,27 @@ print(mydict)
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
+## dict.fromkeys(keys, value)
+```python
+x = ('key1', 'key2', 'key3')
+y = 0
 
+thisdict = dict.fromkeys(x, y)
+
+
+print(thisdict)
+
+
+
+x = ('key1', 'key2', 'key3')
+
+thisdict = dict.fromkeys(x)
+
+print(thisdict)
+```
+```bash
+['key1': 0, 'key2': 0, 'key3': 0]
+['key1': None, 'key2': None, 'key3': None]
 ## Learn More :
 [Click Here <====](https://www.w3schools.com/python/python_dictionaries.asp)
 
