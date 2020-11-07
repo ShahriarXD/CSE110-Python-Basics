@@ -121,5 +121,33 @@ model Mustang
 year 1964 
 ```
 
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/770868718132658206/774619226606272522/unknown.png?width=400&height=677" title="hover text">
+</p>
 
+## Check if Key Exists:
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "brand" in thisdict:
+    print(True)
+```
+```bash
+True
+```
 
+## Dictionary Length :
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(len(thisdict))
+```
+```bash
+3
+```
