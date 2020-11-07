@@ -27,3 +27,7 @@
 <p align="center">
   <img src="https://media.discordapp.net/attachments/770868718132658206/774598761061285888/unknown.png" title="hover text">
 </p>
+
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/770868718132658206/774626522539491358/unknown.png" title="hover text">
+</p>
