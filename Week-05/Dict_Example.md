@@ -1,3 +1,22 @@
+## Important :
+
+```python
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+for key, value in car.items():
+    print(key , value) 
+```
+```bash
+brand Ford
+model Mustang  
+year 1964  
+```
+
+
 ## Dictionary: A collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.
 
 ```python
