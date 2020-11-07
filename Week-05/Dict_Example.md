@@ -179,9 +179,21 @@ thisdict = {
 }
 thisdict["color"] = "red"
 print(thisdict)
+
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.update({"color": "White"})
+
+print(car)
 ```
 ```bash
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'red'}
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
 ```
 ## Removing Items :
 ```python
@@ -263,6 +275,36 @@ print(thisdict)
 ```bash
 ['key1': 0, 'key2': 0, 'key3': 0]
 ['key1': None, 'key2': None, 'key3': None]
+
+## setdefault() Method : 
+```bash
+The setdefault() method returns the value of the item with the specified key.
+If the key does not exist, insert the key, with the specified value, see example below
+```python
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.setdefault("model", "Bronco")
+
+print(x)
+
+#Get the value of the "color" item, if the "color" item does not exist, insert "color" with the value "white":
+car1 = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car1.setdefault("color", "white")
+
+print(x)
+```bash
+Mustang
+white
+```
 ## Learn More :
 [Click Here <====](https://www.w3schools.com/python/python_dictionaries.asp)
 
