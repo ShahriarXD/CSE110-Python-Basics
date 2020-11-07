@@ -70,6 +70,33 @@ thisdict =	{
 }
 for x in thisdict:
   print(thisdict[x])  
+  
+  
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict.values():
+  print(x)  
+  
+  
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict.keys():
+  print(x)
+  
+  
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)  
 ```
 ```bash
 brand
@@ -80,6 +107,18 @@ year
 Ford
 Mustang
 1964
+
+=============
+Ford
+Mustang
+1964
+
+===========
+
+
+brand Ford
+model Mustang  
+year 1964 
 ```
 
 
