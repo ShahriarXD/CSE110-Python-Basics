@@ -179,7 +179,7 @@ print(thisdict)
 ```bash
 {'brand': 'Ford', 'year': 1964}
 ```
-## Del/Clear:
+## Del/Clear/Copy :
 ```python
 thisdict = {
   "brand": "Ford",
@@ -197,7 +197,33 @@ thisdict =	{
 }
 thisdict.clear()
 print(thisdict)
+
+
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = thisdict.copy()
+print(mydict)
+
+
+#Make a copy of a dictionary with the dict() function:
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+mydict = dict(thisdict)
+print(mydict)
 ```
 ```bash
 {}
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
+
+## Learn More :
+[Click Here :](https://www.w3schools.com/python/python_dictionaries.asp)
+
