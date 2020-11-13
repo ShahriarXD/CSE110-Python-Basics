@@ -9,6 +9,16 @@ z = m[0]
 print(x)
 
 
+
+addr = 'monty@python.org'
+uname, domain = addr.split('@')
+print(uname)
+print(domain)
+
 #==============================
 have
 kido
+
+
+monty
+python.org 
