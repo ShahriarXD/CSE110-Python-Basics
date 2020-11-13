@@ -19,3 +19,11 @@ print(l)
 # 22 c
 # [('a', 10), ('b', 1), ('c', 22)]
 # [('c', 22), ('b', 1), ('a', 10)]
+
+
+d = {'a':10, 'b':1, 'c':22}
+l = []
+for key, val in d.items():
+    l.append( (key,val) )  # dont forget to use double bracket here
+print(l)
+# [('a', 10), ('b', 1), ('c', 22)]
