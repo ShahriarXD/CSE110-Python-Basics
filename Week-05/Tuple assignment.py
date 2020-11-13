@@ -16,9 +16,9 @@ print(uname)
 print(domain)
 
 #==============================
-have
-kido
+#have
+#kido
 
 
-monty
-python.org 
+#monty
+#python.org 
