@@ -22,3 +22,31 @@ apple
 cherry
 ('cherry', 'orange', 'kiwi')
 ```
+
+## Change Tuple Values :
+
+```python
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+print(x)
+```
+
+```bash
+('apple', 'kiwi', 'cherry')
+```
+
+## Join Two Tuples : 
+
+```python
+tuple1 = ("a", "b" , "c")
+tuple2 = (1, 2, 3)
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+```
+('a', 'b', 'c', 1, 2, 3)
+```bash
+
+```
