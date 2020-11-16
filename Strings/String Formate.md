@@ -227,7 +227,12 @@ print(x)
 True
 ```
 ## 21. .islower()/.istitle()/.iscapital()/.isupper()/ .isnumeric()/ ..isspace()
-## 22. 
-
-
-
+## 22. .rstrip()/.lstrip()
+```python
+txt = "     banana     "
+x = txt.rstrip()
+print(x)
+```
+```bash
+     banana
+```
