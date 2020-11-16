@@ -226,3 +226,8 @@ print(x)
 ```bash
 True
 ```
+## 21. .islower()/.istitle()/.iscapital()/.isupper()/ .isnumeric()/ ..isspace()
+## 22. 
+
+
+
