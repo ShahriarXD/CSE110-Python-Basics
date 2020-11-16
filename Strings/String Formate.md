@@ -217,3 +217,12 @@ print(sorted(b))
 ['d', 's', 't', 'u', 'y']
 ['d', 's', 't', 'u', 'y']
 ```
+## 20. isdigit()
+```python
+txt = "50800"
+x = txt.isdigit()
+print(x)
+```
+```bash
+True
+```
