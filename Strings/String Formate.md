@@ -226,7 +226,7 @@ print(x)
 ```bash
 True
 ```
-## 21. .islower()/.istitle()/.iscapital()/.isupper()/ .isnumeric()/ ..isspace()
+## 21. .islower()/.istitle()/.iscapital()/.isupper()/ .isnumeric()/ .isspace()
 ## 22. .rstrip()/.lstrip()
 ```python
 txt = "     banana     "
