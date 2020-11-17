@@ -22,3 +22,11 @@ print(reversedString) # reversed string
 str = 'Python' #initial string
 reversed=''.join(reversed(str)) # .join() method merges all of the characters resulting from the reversed iteration into a new string
 print(reversed)
+
+
+
+s = "Python"
+if len(s) == 0: 
+	print(s) 
+else: 
+	print((s[1:]) + s[0] ) 
