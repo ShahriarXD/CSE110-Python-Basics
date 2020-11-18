@@ -1,3 +1,4 @@
+a = input("")
 l = a.split(', ')
 list = []
 for x in range(len(l)):
