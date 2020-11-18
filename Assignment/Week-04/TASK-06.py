@@ -17,3 +17,18 @@ for x in new_lst:
     
 #Also check:
 #ttps://www.pylenin.com/blogs/remove-consecutive-duplicates/
+
+
+
+a = "AAABBBBCDDBBECE"
+list = []
+for x in range(len(a)):
+    list.append(a[x])
+previous_value = None
+new_lst = []
+for x in list:
+    if x != previous_value:
+        previous_value = x
+        new_lst.append(x)
+for x in new_lst:
+    print(x,end="")
