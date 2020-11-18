@@ -36,3 +36,23 @@ elif marks>=50:
     print ("E")
 else:
     print ("F")
+    
+    
+    
+    
+    
+a = int(input())
+if a < 0 or a > 100:
+    print (f"Your Mark is (NOT VALID).")
+elif a>=90:
+    print("A")
+elif a>=80 and a<=89:
+    print("B")
+elif a>=70 and a<=79:
+    print("c")
+elif a>=60 and a<=69:
+    print("D")
+elif a>=50 and a<=59:
+    print("E")
+elif a<50:
+    print("F")
