@@ -19,3 +19,14 @@ print(f"Average is {Final}")
 # Final = sum/avg
 # zz =round(Final)
 # print(f"Average is {zz}")
+
+
+
+
+a = {'Jon': 100, 'Dan':200, 'Rob':30}
+sum = 0
+count = 0
+for x,y in a.items():
+    sum = sum + y
+    count += 1
+print(f"Average is {round(sum/count)}")
