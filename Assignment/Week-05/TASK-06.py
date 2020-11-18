@@ -25,3 +25,12 @@ print(tuple(bb))
 # b = tuple(list)
 # bb = reversed(b)
 # print(tuple(bb))
+
+#METHOD 4
+aa = ('a','b','c','d','e','f','g','h')
+# list= []
+# for x in aa:
+#     list.append(x)
+# aa = list[::-1]
+# print(tuple(aa))
+
