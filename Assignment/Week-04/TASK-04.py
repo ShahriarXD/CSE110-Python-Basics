@@ -1,4 +1,3 @@
-
 a = input("")
 for x in range(len(a)):
     lol = ord(a[x])
@@ -6,5 +5,5 @@ for x in range(len(a)):
     if bb == 123:
         print("a",end="")
     else:
-        xx = chr(bb)
-        print(xx , end="")
+        xx = chr(bb)                 #here chr is the opposite of ord
+        print(xx , end="")   
