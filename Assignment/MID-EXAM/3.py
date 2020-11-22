@@ -12,4 +12,4 @@ else:
     xx = a.copy()
     xx[-1] = bb[0]
     xx[-3] = bb[2]
-print(xx)
+    print(xx)
