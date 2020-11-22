@@ -1,15 +1,10 @@
-import ast
-a = ast.literal_eval(input())
-bb = a.copy()
-b = int(input())
-c = len(a)
-d = c/b
-if b > d:
+list = ['A','B', 'C', 'D', 'E', 'F','G','H']
+step = int(input())
+if len(list)/2 < step:
     print("Step size is not suitable")
 else:
-    a[0] = a[-1]
-    a[2] = a[-3]
-    xx = a.copy()
-    xx[-1] = bb[0]
-    xx[-3] = bb[2]
-    print(xx)
+    for x in range(0,len(list)//2 , step):
+        temp = list[x]
+        list[x] = list[-x-1]
+        list[-x-1] = temp
+print(list)
