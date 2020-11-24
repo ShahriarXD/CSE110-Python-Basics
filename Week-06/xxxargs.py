@@ -1,4 +1,5 @@
 #xxxargs 
+# also know as **kwargs
 # so xxxargs muloto dictonary er moton kaj korbe.
 
 def student(**details):
