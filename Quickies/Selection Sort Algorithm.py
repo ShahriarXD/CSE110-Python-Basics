@@ -1,3 +1,35 @@
+my_list = [4,2,3,1,6,5]
+for i in range(len(my_list)-1):
+    min = my_list[i]
+    min_index = i
+    for j in range(i+1,len(my_list)):
+        if my_list[j] < min:
+            min = my_list[j]
+            min_index = j
+    temp = my_list[min_index]
+    my_list[min_index] = my_list[i]
+    my_list[i] = temp
+print(my_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a = [5,3,8,6,7,2]
 
 for x in range(len(a)):
