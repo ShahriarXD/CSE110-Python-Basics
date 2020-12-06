@@ -6,6 +6,8 @@ try:
 	print(x)
 except Exception:
 	print("not possible Sir")
+finally:
+    print("Done")
 a = 6
 b = 0
 try:
@@ -13,10 +15,16 @@ try:
 	print(x)
 except Exception:
 	print("not possible Sir")	
-  
-  
-  
-  
+finally:
+    print("Done")
+
+
+
+
+
+
 6
 3.0
+Done
 not possible Sir
+Done
