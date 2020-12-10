@@ -9,6 +9,13 @@ specify how
 many characters 
 you want to return:
 ```
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/764436939398185000/786573600307806229/Screenshot_2020-12-10_184215.png" title="hover text">
+</p>
+
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/764436939398185000/786574678675816468/unknown.png" title="hover text">
+</p>
 
 ```python
 f = open("demofile.txt", "r")
