@@ -42,3 +42,32 @@ Now the file has more content!
 copyright
 By Shahriar
 ```
+
+
+
+
+
+
+
+
+## Deliting file
+
+```python
+import os
+os.remove("demofile.txt")
+```
+
+```python
+import os
+if os.path.exists("demofile.txt"):
+  os.remove("demofile.txt")
+else:
+  print("The file does not exist")
+```
+
+## Deliting folder
+
+```python
+import os
+os.rmdir("myfolder")
+```
