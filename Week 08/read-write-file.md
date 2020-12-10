@@ -114,3 +114,13 @@ method returns
 
 the whole text,
 ```
+
+
+```python
+f = open("demofile.txt", "r")
+print(f.readline())
+f.close()
+```
+```bash
+['By default the read() \n', 'method returns \n', 'the whole text,\n', 'but you can also \n', 'specify how\n', 'many characters \n', 'you want to return:']
+```
