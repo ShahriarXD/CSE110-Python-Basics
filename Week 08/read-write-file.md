@@ -80,3 +80,15 @@ many characters
 
 you want to return:
 ``` 
+
+
+
+
+## It is a good practice to always close the file when you are done with it.
+## Close the file when you are finish with it:
+
+```bash
+f = open("demofile.txt", "r")
+print(f.readline())
+f.close()
+```
