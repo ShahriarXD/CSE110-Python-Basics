@@ -1,4 +1,5 @@
-##Write to an Existing File
+## Write to an Existing File
+ 
 ```bash
 To write to an existing file, you must add a parameter to the open() function:
 
