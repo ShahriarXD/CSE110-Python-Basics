@@ -99,3 +99,18 @@ f = open("demofile.txt", "r")
 print(f.readline())
 f.close()
 ```
+
+```python
+f = open("demofile.txt", "r")
+for x in range(3):
+    print(f.readline())
+f.close()
+```
+
+```bash
+By default the read() 
+
+method returns 
+
+the whole text,
+```
