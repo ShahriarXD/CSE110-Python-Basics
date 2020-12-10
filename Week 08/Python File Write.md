@@ -24,3 +24,21 @@ specify how
 many characters  
 you want to return:
 ```
+
+## Start
+
+```python
+f = open("shahriar.txt", "w")
+f.write("Now the file has more content!\n")
+f.write("copyright\n")
+f.write("By Shahriar")
+f = open("shahriar.txt", "r")
+print(f.read())
+f.close()
+```
+
+```bash
+Now the file has more content!
+copyright
+By Shahriar
+```
